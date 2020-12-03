@@ -25,7 +25,6 @@ export default function locations(state = initialState, action) {
                 loading: false,
                 error: action.message,
             }
-
         case type.DELETE_LOCATION_REQUESTED:
             return {
                 ...state,
